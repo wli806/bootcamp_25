@@ -1,0 +1,50 @@
+/* 通用文本样式 */
+body {
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.city {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 15px auto;
+    width: 640px;
+}
+/* 文本容器样式 */
+.text-container {
+    border: 2px solid lightgray;
+    margin: 10px auto;
+    padding: 10px;
+    display: inline-block;
+    width: 620px;
+
+}
+
+/* 链接样式 */
+.link {
+    color: blue;
+    text-decoration:    ;
+}
+
+.link:hover {
+    color: purple;
+}
+
+/* 图片样式 */
+.city-image {
+    width: 640px;
+    border-radius: 12px;
+}
