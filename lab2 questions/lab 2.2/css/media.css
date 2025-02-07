@@ -1,0 +1,24 @@
+/* 超小屏幕（小于等于575px） */
+@media (max-width: 575px) {
+
+}
+
+/* 小屏幕（大于等于576px） */
+@media (min-width: 576px) {
+
+}
+
+/* 中等屏幕（大于等于768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 大屏幕（大于等于992px）*/
+@media (min-width: 992px) {
+
+}
+
+/*  超大屏幕（大于等于1200）  */
+@media (min-width: 1200px) {
+
+}

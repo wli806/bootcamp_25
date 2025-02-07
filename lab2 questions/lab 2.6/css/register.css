@@ -1,0 +1,48 @@
+/* 给类名为contact_form的元素定义宽度和居中 */
+.contact_form {width:70%;margin:0 auto}
+/* 给类名为contact_form的元素下的ul标签定义宽度、列表样式、外边距和内边距 */
+.contact_form ul {width:750px;list-style:none;margin:0px;padding:0px}
+/* 给类名为contact_form的元素下的li标签定义外边距和内边距 */
+.contact_form li {padding:12px;border-bottom:1px solid #eee}
+/* 给类名为contact_form的元素的第一个子元素li和最后一个子元素li加底部边框 */
+.contact_form li:first-child, .contact_form li:last-child {border-bottom:1px solid #777}
+/* 给类名为contact_form的元素下的span标签定义宽度和显示方式 */
+.contact_form span{width:150px;display:inline-block}
+/* 给类名为usually的元素下的input标签定义宽高和内边距 */
+.usually input{height:20px;width:220px;padding:5px 8px}
+/* 给类名为usually的元素下的textarea标签定义宽高和内边距 */
+*:focus{outline:none}
+/* 当鼠标悬停在输入框上时，设置背景颜色和边框阴影 */
+.usually input, .usually textarea {
+    background: url(../images/attention.png) no-repeat 98% center;
+    box-shadow: 0 10px 15px #eee inset;border-radius: 2px
+    }
+/* 给类名为contact_form的元素下的textarea标签定义宽高和内边距 */
+.contact_form textarea {padding: 8px;width: 300px}
+/* 当输入框获得焦点时，设置背景颜色为白色 */
+.usually input:focus, .usually textarea:focus {background: #fff}
+/* 给类名为contact_form的元素下的input标签定义宽高和内边距 */
+input[type=submit] {
+  margin-left: 156px;
+  background-color: #68b12f;
+  border: 1px solid #509111;
+  border-radius: 3px;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  height: 28px;
+}
+/* 当鼠标悬停在提交按钮上时，设置透明度和鼠标样式 */
+input[type=submit]:hover {opacity: .85;cursor: pointer}
+/* 当该元素获得焦点填写内容无效时，设置警告背景图片 */
+.usually input:focus:invalid,
+.usually textarea:focus:invalid {
+  background: url(../images/warn.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #d45252
+}
+/* 当该元素获取有效的填写内容时，设置正确背景图片 */
+.usually input:required:valid,
+.usually textarea:required:valid {
+  background: url(../images/right.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #5cd053
+}

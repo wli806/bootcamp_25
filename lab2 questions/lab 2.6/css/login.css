@@ -1,0 +1,36 @@
+/* 这里可以只对body进行效果填充，body是整个页面 */
+body {
+    background-image: url(../images/1.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+  }
+form {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+.center {
+    float: center;
+  }
+.button-container {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+  }
+input[type="text"], input[type="password"] {
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+input[type="submit"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+  }
