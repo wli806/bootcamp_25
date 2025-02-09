@@ -1,0 +1,35 @@
+window.addEventListener("load", function () {
+
+    // TODO 1) 在这里声明变量。
+
+
+    // TODO 5) 为两个按钮添加事件监听器：
+    // a. 当 #btnStartTimer 被点击时，调用 startTimer 函数。
+    // b. 当 #btnStopTimer 被点击时，调用 stopTimer 函数。
+
+
+    // TODO 2) 完成此函数，使其：
+    // a. 如果计时器尚未启动，执行以下操作：
+    // - 将 elapsedTimeMillis 的值设置为 0
+    // - 在 #timer_face <span> 中显示 "0.00"
+    // - 启动计时器，每 100 毫秒调用一次 updateTimer 函数。
+    // b. 如果计时器已经启动，调用此函数不执行任何操作。
+    function startTimer() {
+
+    }
+
+    // TODO 3) 完成此函数，使其：
+    // a. 如果计时器已经启动，则停止计时器。
+    // b. 如果计时器尚未启动，调用此函数不执行任何操作。
+    function stopTimer() {
+
+    }
+
+    // TODO 4) 完成此函数，使其：
+    // a. 适当更新 elapsedTimeMillis 的值。
+    // b. 将 #timer_face <span> 的文本设置为当前经过的时间，单位为秒，四舍五入到两位小数。
+    function updateTimer() {
+
+    }
+
+});

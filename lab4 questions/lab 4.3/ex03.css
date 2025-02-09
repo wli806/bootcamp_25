@@ -1,0 +1,18 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+
+.animated {
+    animation: bouncy 3s linear 0s infinite alternate;
+}
+
+@keyframes bouncy {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: calc(100% - 100px);
+    }
+}

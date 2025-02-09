@@ -1,0 +1,104 @@
+:root {
+    --fg-color: #3D3D3D;
+}
+
+* {
+    color: var(--fg-color);
+}
+
+.vflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1em 2em;
+}
+
+.page_container {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clock, .timer {
+    border: 1px solid lightgrey;
+    margin: 0.25em;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 30pt;
+    font-variant: small-caps;
+    text-decoration: black underline;
+}
+
+.digital {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 40pt;
+    font-weight: bolder;
+    margin: 1em auto;
+}
+
+.date {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 1em auto;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 8em;
+
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+
+    border: 1px solid var(--fg-color);
+    border-radius: 3px;
+    box-shadow: black 1px 1px 1px;
+    padding: 1em;
+}
+
+.button-positive {
+    background: repeating-linear-gradient(
+            45deg,
+            #2F2,
+            #2F2 10px,
+            #3D3 10px,
+            #3D3 20px
+    )
+}
+
+.button-warn {
+    background: repeating-linear-gradient(
+            45deg,
+            rgb(255, 222, 34),
+            rgb(255, 222, 34) 10px,
+            rgb(255, 187, 0) 10px,
+            rgb(255, 187, 0) 20px
+    )
+}
+
+.button-danger {
+    background: repeating-linear-gradient(
+            45deg,
+            #F22,
+            #F22 10px,
+            #D33 10px,
+            #D33 20px
+    )
+}

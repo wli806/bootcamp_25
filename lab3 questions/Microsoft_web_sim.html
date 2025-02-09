@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>web simulate</title>
+    <style>
+        /* 这里的分类要更多，不然那个图片对不上 */
+        @media (min-width: 1024px) {
+            .mobile {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .Copilot-box {
+                padding: 20px;
+                position: absolute;
+                width: 1000px;
+                top: 10px;
+                left: 20px;
+                
+            }
+        }
+
+        @media (min-width: 768) and (max-width: 1023px) {
+            .pad {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .Copilot-box {
+                padding: 20px;
+                position: absolute;
+                width: 6000px;
+                top: 460px;
+                left: 20px;
+                border: 1px solid gray;
+            }
+        }
+
+        @media (max-width: 859px) {
+            .pad {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .Copilot-box {
+                padding: 4px;
+                position: absolute;
+                width: 900px;
+                top: 190px;
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 space-control pad">
+                <div class="card h-100d">
+                    <div class="card-header px-0 py-0">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Icon-Toss-Cycle-2?wid=380&hei=213&fit=crop"
+                            class="card-img-top" alt="Surface Pro">
+                    </div>
+                    <div class="card-body flex-column">
+                        <h5 class="card-title">Surface Pro, Copilot+ PC</h5>
+                        <p class="card-text">This laptop's unrivalled flexibility and AI features like Cocreator...</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <botton class="btn btn-primary">Shop Microsoft 365</botton>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 space-control pad">
+                <div class="card h-100">
+                    <div class="card-header px-0 py-0">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Xbox-Controller-Valentine-CP?wid=380&hei=213&fit=crop"
+                            class="card-img-top" alt="Surface Laptop">
+                    </div>
+
+                    <div class="card-body flex-column">
+                        <h5 class="card-title">Surface Laptop, Copilot+ PC</h5>
+                        <p class="card-text">Unlock AI features like Live Captions and Cocreator with this powerful
+                            laptop.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <botton class="btn btn-primary">Shop now</botton>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 space-control pad">
+                <div class="card h-100">
+                    <div class="card-header px-0 py-0">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Xbox-Series-X-2TB-Galaxy-Black-Special-Edition?wid=380&hei=213&fit=crop"
+                            class="card-img-top" alt="Xbox Series X">
+                    </div>
+                    <div class="card-body flex-column">
+                        <h5 class="card-title">Xbox Series X - 2 TB</h5>
+                        <p class="card-text">Next-gen frame rates meet lightning-fast load times...</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <botton class="btn btn-primary">Shop now</botton>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 space-control pad">
+                <div class="card h-100">
+                    <div class="card-header px-0 py-0">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-Update-September-2024?wid=380&hei=213&fit=crop"
+                            class="card-img-top" alt="Xbox Series S">
+                    </div>
+                    <div class="card-body flex-column">
+                        <h5 class="card-title">Xbox Series S - 1 TB</h5>
+                        <p class="card-text">Score the best value in gaming with Xbox Series S, available for
+                            pre-order...</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <botton class="btn btn-primary">Join now</botton>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 px-0" style="position: relative;">
+        <picture>
+            <source media="(min-width: 1084px)" srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App:VP5-1596x600">
+
+            <source media="(min-width: 860px) and (max-width: 1083px)" srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App:VP3-1083x600" class="card-img w-100">
+        
+            <source media="(max-width: 859px)" srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App:VP2-859x540">
+        
+            <img class="card-img mobile pad"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App:VP4-1260x600"
+                alt="Copilot Native App">
+        </picture>
+        <div class="Copilot-box">
+            <div class="row">
+                <div class="card py-5 px-4 w-50 bg-transparent border-0">
+                    <div class="card-body">
+                        <h2 class="">Copilot is your AI companion</h2>
+                        <div class="mb-4">
+                            "Always by your side, ready to support you whenever and wherever you need it."
+                        </div>
+                        <button class="btn btn-primary mt-auto">Download the Copilot app</button>
+                        <a href="#" class="btn btn-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-play" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+                            </svg>
+                            Watch the video
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

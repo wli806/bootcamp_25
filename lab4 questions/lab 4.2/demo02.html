@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>JavaScript获取HTML元素对象</title>
+</head>
+
+<body>
+	<input type="text" value="admin" /><br />
+	<input type="password" value="123456" /><br />
+	<input type="text" value="157****9089" /><br />
+	<input type="button" value="元素个数" id="iptNum" />
+	<script type="text/javascript">
+		var Oiptnum = document.getElementById('iptNum');
+		var Oipts = document.getElementsByTagName('input');
+		Oiptnum.onclick = function () {
+			alert('有' + Oipts.length + '个<input>元素')
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <p>请前往控制台查看输出结果</p>
+  <script>
+    // continue语句
+    for (var i = 1; i <= 6; i++) {
+      if (i == 2) {
+        continue;                           // 跳出本次循环，直接跳到i++
+      }
+      console.log(`小智吃完了第${i}个桃子`);
+    }
+
+    // break语句
+    for (var i = 1; i <= 6; i++) {
+      if (i == 4) {
+        break;                              // 跳出整个循环
+      }
+      console.log(`小智吃完了第${i}个桃子`);
+    }
+  </script>
+</body>
+</html>
