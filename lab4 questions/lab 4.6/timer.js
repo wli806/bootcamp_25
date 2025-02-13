@@ -22,6 +22,7 @@ window.addEventListener("load", function () {
         if (timer === null) {
             elapsedTimeMillis = 0;
             timerFace.textContent = "0.00";
+            // setInterval() 方法可按照指定的周期（以毫秒计）来调用函数或计算表达式。这里调用了UpdateTimer函数
             timer = setInterval(updateTimer, 100);
         }
     }
