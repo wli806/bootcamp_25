@@ -27,11 +27,9 @@ export default function OffsetGrid() {
     let [tableData, setTableData] = useState([]);
 
     const addRow = () => {
-        // 创建新的表格数据，包含新增的行
         const newRow = Array(tableData[0].length).fill('');
         const newTableData = [...tableData, newRow];
-    
-        // 更新表格数据
+
         setTableData(newTableData);
       };
 
