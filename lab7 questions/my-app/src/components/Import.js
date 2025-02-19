@@ -29,7 +29,6 @@ export default function OffsetGrid() {
     const addRow = () => {
         const newRow = Array(tableData[0].length).fill('');
         const newTableData = [...tableData, newRow];
-
         setTableData(newTableData);
       };
 
