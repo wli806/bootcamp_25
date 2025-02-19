@@ -12,7 +12,7 @@ import EnhancedTable from './Table';
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: 'white',
     ...theme.typography.body2,
-    padding: theme.spacing(4),
+    padding: theme.spacing(1),
     margin: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
@@ -23,19 +23,12 @@ const Item = styled(Paper)(({ theme }) => ({
     cursor: 'pointer',
 }));
 
-export default function OffsetGrid() {
-    let [tableData, setTableData] = useState([]);
-
-    const addRow = () => {
-        const newRow = Array(tableData[0].length).fill('');
-        const newTableData = [...tableData, newRow];
-        setTableData(newTableData);
-      };
+export default function OffsetGrid({ addRow }) {
 
     return (
         <Box>
             <Grid container spacing={3} sx={{ flexGrow: 1 }}>
-                <Grid size={{ xs: 6, md: 2 }} offset={{ xs: 3, md: 0 }}>
+                <Grid size={{ xs: 4, md: 2 }} offset={{ xs: 3, md: 0 }}>
                     <Item onClick={addRow}>
                         <Box display="flex" alignItems="center" justifyContent="center">
                             Add New
