@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### package.json 是项目的配置文件，定义了依赖范围和项目的相关信息；
+
+### package-lock.json 是用于锁定具体依赖版本的文件，确保不同环境中安装的依赖版本一致。
