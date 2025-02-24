@@ -1,4 +1,5 @@
-import { useParams, useState } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useState } from "react";
 
 const List = () => {
     const [List, setList] = useState([
@@ -7,6 +8,7 @@ const List = () => {
         { id: 3, name: "Jane" },
         { id: 3, name: "Jan" },
     ]);
+    const params = useParams();
 
     return (
         <div>

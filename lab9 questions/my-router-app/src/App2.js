@@ -1,7 +1,7 @@
 import {createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 
 import Dashboard from './components/Dashboard'
-import Board from './components/Board'
+import Canvas from './components/Canvas'
 import About from './components/About'
 import NotFound from './components/NotFound'
 const App2 = () => {
@@ -17,7 +17,7 @@ const App2 = () => {
             children: [
                 {
                     path: 'board',
-                    element: <Board />
+                    element: <Canvas />
                 },
                 {
                     path: 'about',
