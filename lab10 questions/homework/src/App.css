@@ -1,0 +1,23 @@
+.tool-box{
+  width: 80vw;
+  height: 75px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.common-box{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.export-upload-box{
+  display: flex;
+  align-items: center;
+}
