@@ -11,7 +11,6 @@ const List = () => {
     const params = useParams();
 
     return (
-        <div>
             <div>List-{params.id}</div>
             <ul>
                 {
